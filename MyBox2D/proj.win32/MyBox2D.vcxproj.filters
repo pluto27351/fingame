@@ -10,6 +10,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{227ce3df-8ad3-4f55-bd3b-5f597323ad91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,8 +21,35 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+    <ClCompile Include="..\Classes\Common\CButton.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\GB2ShapeCache-x.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\GLES-Render.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\CContactListener.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartScene.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level1Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level2Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level3Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level4Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\CSwitchButton.cpp">
+      <Filter>src\Common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,8 +59,35 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
+    <ClInclude Include="..\Classes\Common\CButton.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GB2ShapeCache-x.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GLES-Render.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\CContactListener.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartScene.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level1Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level2Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level3Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level4Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\CSwitchButton.h">
+      <Filter>src\Common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
